@@ -63,7 +63,7 @@ describe('<Game />', () => {
         wrapper.setState({testData});
         wrapper.setState({
             guesses: [],
-            feedback: testData.feedback,
+            feedback: '',
             auralStatus: testData.auralStatus,
             correctAnswer: testData.correctAnswer
         });

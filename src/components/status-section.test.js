@@ -8,9 +8,4 @@ describe('<StatusSection />', () => {
     it('Renders without crashing', () => {
         shallow(<StatusSection guesses={guesses}/>);
     });
-
-    // it('Renders the guess list initially', () => {
-    //     const wrapper = shallow(<StatusSection guesses={guesses}/>);
-    //     expect(wrapper.hasClass('guessBox')).toEqual(true);
-    // });
 })

@@ -17,11 +17,4 @@ describe('<GuessForm />', () => {
         wrapper.simulate('submit');
         expect(callback).toHaveBeenCalledWith(value);
     });
-
-    // it('test that callback is triggered on submit', () => {
-    //     const callback = jest.fn();
-    //     const wrapper = mount(<GuessForm onMakeGuess={callback} />);
-    //     wrapper.simulate('submit');
-        
-    // });
 });
